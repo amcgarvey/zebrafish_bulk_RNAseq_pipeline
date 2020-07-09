@@ -1,0 +1,36 @@
+"""Snakemake file."""
+
+# See tutorial at: http://tiny.cc/snakemake_tutorial
+
+import os
+
+import yaml
+
+import numpy as np
+import pandas as pd
+#### COMMON RUN SPECIFICS ####
+
+configfile: 'workflowconfig.yaml'
+
+RUN_NAME = config['name']
+OUT_DIR = config['output_dir']
+LOG_DIR = os.path.join(OUT_DIR, "logs")
+
+INPUT_ALL = []
+
+samples = pd.read_table(config["samples"])
+#barcodes = pd.read_table(config['barcodes']['sheet'])
+
+############ BEGIN PIPELINE RULES ############
+
+include: "scripts/pathmaniputations.snakefile"
+include: "scripts/flexbar.snakefile"
+include: "scripts/fastqc.snakefile"
+include: "scripts/fastqc_trimmed.snakefile"
+include: "scripts/star.snakefile"
+include: "scripts/star_trimmed.snakefile"
+
+#### ALL ####
+# ---
+rule all:
+    input: INPUT_ALL

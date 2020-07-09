@@ -1,0 +1,21 @@
+name: RNAseq
+
+samples: "./samplesheet.tsv"
+
+# reference genomes to map against
+# # the paths should point to the respective bowtie2 indices
+min_mapq: 
+ - 0
+ - 10
+
+min_counts_per_barcode: 0
+# add star reference here
+reference:
+  danrer11:
+    bowtie2index: /fast/AG_Ohler/Scott/danRer11/noAlt_danRer11
+    macs_gsize: dm
+    removechroms: [chrM, _random, chrUn]
+
+# output directory
+output_dir: /fast/AG_Ohler/Alison/panakova_CM_RNAseq/data/
+
