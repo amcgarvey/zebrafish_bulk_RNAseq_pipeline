@@ -2,7 +2,7 @@
 
 #$-m baes
 #$-pe smp 1
-#$-l h_vmem=30G,os=centos7
+#$-l h_vmem=80G,os=centos7
 #$-cwd
 #$-V
 #$-j yes #merge the stderr with the stdout
