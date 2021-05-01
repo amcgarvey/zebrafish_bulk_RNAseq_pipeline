@@ -1,10 +1,6 @@
 # Creating conda environment
-first environment for notebooks and r work
+environment for notebooks and r work
 
-``
-conda create --name panakovaRNAseq
-```
-I broke this so set up
 
 ```
 conda create --name pannotebooks
@@ -12,7 +8,7 @@ conda create --name pannotebooks
 
 second environment for pipeline (mainly because snakemake has conflicting dependencies)
 
-``
+```
 conda create --name pansnakemake
 ```
 third environment for multiqc with python
@@ -23,12 +19,6 @@ conda activate py3.7
 conda install -c bioconda -c conda-forge multiqc
 ```
 
-## Package Plan ##
-
-  environment location: /home/amcgarv/miniconda3/envs/panakovaRNAseq
-
-
-
 ## locale error fix
 in ~/.bashrc added
 
@@ -37,8 +27,8 @@ export LANG=en_US.UTF-8
 export LC_ALL=en_US.UTF-8
 ```
 
-## panakovaRNAseq and pannotebooks
-###installation
+## pannotebooks
+### installation
 
 conda install -c conda-forge r-base=4.0.0
 conda install -c conda-forge r-irkernel jupyterlab
