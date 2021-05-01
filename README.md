@@ -1,7 +1,7 @@
 
-# Analysis of RNA-seq from zebrafish cardiomyocytes
+# Analysis of bulk RNA-seq from zebrafish
 
-This is the analysis of RNA-seq data generated from zebrafish cardiomyotes, sorted by Anne Merks from Daniela Panakova's lab and libraries prepared and seuqenced with CEL-seq protocol by Ronny Schaefer from Philipp Junker's lab.
+This is the analysis of RNA-seq data generated from zebrafish cardiomyotes, prepared and sequenced with CEL-seq protocol.
 
 ## Project structure
 
@@ -12,9 +12,8 @@ raw/ raw data from the sequencer that is not to be touched
 scripts/ functions or bits of code used in main pipeline or analysis notebooks e.g. snakemake rules or R functions
 
 ### files
-* install_packages.r details all the r packages to be installed
-* labnotes.md is the dated analysis "diary"
 * main.snake is the master snakemake file for the standard mapping pipeline
-* manifest_rnaseq.scm is the guix manifest describing all the packages in the environment
+* pansnakemake_environment.yml is the conda environment used for the snakemake pipeline
 * notebook.ipynb is the notebook describing the main downstream analysis steps. Tests, or versions of these are found in notebooks/ directory
-* start_notebook.sh is the script to submit jupyternotebook launcher as a cluster script
+* samplesheet.tsv contains all sample names and fastq paths
+* samplesheet_aligning.tsv contains paired information for samples paired-end sequenced
