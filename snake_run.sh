@@ -7,7 +7,6 @@
 #$-V
 #$-j yes #merge the stderr with the stdout
 #$-o logs/ #stdout, job log
-#$-M alisonclare.mcgarvey@mdc-berlin.de
 #$-N 'main.snake'
 
 source activate pansnakemake
