@@ -17,3 +17,4 @@ scripts/ functions or bits of code used in main pipeline or analysis notebooks e
 * notebook.ipynb is the notebook describing the main downstream analysis steps. Tests, or versions of these are found in notebooks/ directory
 * samplesheet.tsv contains all sample names and fastq paths
 * samplesheet_aligning.tsv contains paired information for samples paired-end sequenced
+* snake_run.sh script for job submission to the Grid Engine cluster
