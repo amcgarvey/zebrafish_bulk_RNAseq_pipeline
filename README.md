@@ -1,7 +1,7 @@
 
 # Analysis of bulk RNA-seq from zebrafish
 
-This is the analysis of RNA-seq data generated from zebrafish cardiomyotes, prepared and sequenced with CEL-seq protocol.
+This is a snakemake pipeline for the analysis of RNA-seq data generated from zebrafish cardiomyotes, prepared and sequenced with CEL-seq protocol.
 
 ## Project structure
 
