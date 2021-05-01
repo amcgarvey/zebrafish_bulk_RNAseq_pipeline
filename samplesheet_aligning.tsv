@@ -1,0 +1,13 @@
+Name	file1	file2
+Blebbicm1	/fast/AG_Ohler/Alison/panakova_CM_RNAseq/data/trimmed/Blebbicm1_1/Blebbicm1_1.fastq	/fast/AG_Ohler/Alison/panakova_CM_RNAseq/data/trimmed/Blebbicm1_2/Blebbicm1_2.fastq
+Blebbicm2	/fast/AG_Ohler/Alison/panakova_CM_RNAseq/data/trimmed/Blebbicm2_1/Blebbicm2_1.fastq	/fast/AG_Ohler/Alison/panakova_CM_RNAseq/data/trimmed/Blebbicm2_2/Blebbicm2_2.fastq
+Blebbicm3	/fast/AG_Ohler/Alison/panakova_CM_RNAseq/data/trimmed/Blebbicm3_1/Blebbicm3_1.fastq	/fast/AG_Ohler/Alison/panakova_CM_RNAseq/data/trimmed/Blebbicm3_2/Blebbicm3_2.fastq
+DMSOcm1	/fast/AG_Ohler/Alison/panakova_CM_RNAseq/data/trimmed/DMSOcm1_1/DMSOcm1_1.fastq	/fast/AG_Ohler/Alison/panakova_CM_RNAseq/data/trimmed/DMSOcm1_2/DMSOcm1_2.fastq
+DMSOcm2	/fast/AG_Ohler/Alison/panakova_CM_RNAseq/data/trimmed/DMSOcm2_1/DMSOcm2_1.fastq	/fast/AG_Ohler/Alison/panakova_CM_RNAseq/data/trimmed/DMSOcm2_2/DMSOcm2_2.fastq
+DMSOcm3	/fast/AG_Ohler/Alison/panakova_CM_RNAseq/data/trimmed/DMSOcm3_1/DMSOcm3_1.fastq	/fast/AG_Ohler/Alison/panakova_CM_RNAseq/data/trimmed/DMSOcm3_2/DMSOcm3_2.fastq
+cmCTL30hpf1	/fast/AG_Ohler/Alison/panakova_CM_RNAseq/data/trimmed/cmCTL30hpf1_1/cmCTL30hpf1_1.fastq	/fast/AG_Ohler/Alison/panakova_CM_RNAseq/data/trimmed/cmCTL30hpf1_2/cmCTL30hpf1_2.fastq
+cmCTL30hpf2	/fast/AG_Ohler/Alison/panakova_CM_RNAseq/data/trimmed/cmCTL30hpf2_1/cmCTL30hpf2_1.fastq	/fast/AG_Ohler/Alison/panakova_CM_RNAseq/data/trimmed/cmCTL30hpf2_2/cmCTL30hpf2_2.fastq
+cmCTL30hpf3	/fast/AG_Ohler/Alison/panakova_CM_RNAseq/data/trimmed/cmCTL30hpf3_1/cmCTL30hpf3_1.fastq	/fast/AG_Ohler/Alison/panakova_CM_RNAseq/data/trimmed/cmCTL30hpf3_2/cmCTL30hpf3_2.fastq
+cmV30hpf1	/fast/AG_Ohler/Alison/panakova_CM_RNAseq/data/trimmed/cmV30hpf1_1/cmV30hpf1_1.fastq	/fast/AG_Ohler/Alison/panakova_CM_RNAseq/data/trimmed/cmV30hpf1_2/cmV30hpf1_2.fastq
+cmV30hpf2	/fast/AG_Ohler/Alison/panakova_CM_RNAseq/data/trimmed/cmV30hpf2_1/cmV30hpf2_1.fastq	/fast/AG_Ohler/Alison/panakova_CM_RNAseq/data/trimmed/cmV30hpf2_2/cmV30hpf2_2.fastq
+cmV30hpf3	/fast/AG_Ohler/Alison/panakova_CM_RNAseq/data/trimmed/cmV30hpf3_1/cmV30hpf3_1.fastq	/fast/AG_Ohler/Alison/panakova_CM_RNAseq/data/trimmed/cmV30hpf3_2/cmV30hpf3_2.fastq
