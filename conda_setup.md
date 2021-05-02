@@ -1,6 +1,6 @@
 # Creating conda environments
 
-To avoid clashing dependencies and to ensure reproducibility of results, the analysis was performed with conda environments. For this project I used the following three environments.
+To avoid clashing dependencies and to ensure reproducibility of results, the analysis was performed with conda environments. For this project I used the following environments.
 
 ## Environment for notebooks and r work
 
@@ -20,16 +20,6 @@ conda env create -n pannotebooks -f pannotebooks_environment.yml
 conda create --name pansnakemake
 ```
 Can be recreated from pansnakemake_environment.yml
-
-## Third environment for multiqc with python
-Multiqc requires py3.7 to work
-
-```
-conda create --name py3.7 python=3.7
-conda activate py3.7
-conda install -c bioconda -c conda-forge multiqc
-```
-Can be recreated from py3.7_environment.yml
 
 ## locale error fix
 in ~/.bashrc added
