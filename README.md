@@ -4,7 +4,7 @@
 This is a snakemake pipeline and jupyter notebook for the analysis of RNA-seq data generated from zebrafish cardiomyotes, prepared and sequenced with CEL-seq protocol.
 The pipeline and downstream analysis consist of:
 
-* Trimming adaptors from fastq files
+* Trimming adaptors from fastq files with [flexbar](https://github.com/seqan/flexbar)
 * QC of fastq read quality with [fastqc](https://www.bioinformatics.babraham.ac.uk/projects/fastqc/)
 * Alignment of transcriptomic reads with [STAR](https://github.com/alexdobin/STAR)
 * Count matrix creation with [Rsubread featureCounts](https://bioconductor.org/packages/release/bioc/html/Rsubread.html)
