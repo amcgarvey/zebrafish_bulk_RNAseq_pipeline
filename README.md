@@ -1,7 +1,14 @@
 
 # Analysis of bulk RNA-seq from zebrafish
 
-This is a snakemake pipeline for the analysis of RNA-seq data generated from zebrafish cardiomyotes, prepared and sequenced with CEL-seq protocol.
+This is a snakemake pipeline and jupyter notebook for the analysis of RNA-seq data generated from zebrafish cardiomyotes, prepared and sequenced with CEL-seq protocol.
+The pipeline and downstream analysis consist of:
+
+* Trimming adaptors from fastq files
+* QC of fastq read quality with [fastqc](https://www.bioinformatics.babraham.ac.uk/projects/fastqc/)
+* Alignment of transcriptomic reads with [STAR](https://github.com/alexdobin/STAR)
+* Count matrix creation with [Rsubread featureCounts](https://bioconductor.org/packages/release/bioc/html/Rsubread.html)
+* Differential expression analysis with [DESeq2](http://bioconductor.org/packages/devel/bioc/vignettes/DESeq2/inst/doc/DESeq2.html)
 
 ## Project structure
 
