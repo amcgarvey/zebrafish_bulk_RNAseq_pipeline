@@ -1,23 +1,28 @@
 # Creating conda environments
 
-Environment for notebooks and r work
+To avoid clashing dependencies and to ensure reproducibility of results, the analysis was performed with conda environments. For this project I used the following three environments.
+
+## Environment for notebooks and r work
 
 ```
 conda create --name pannotebooks
 ```
 Can be recreated from pannotebooks_environment.yml with:
 ```
-conda create -n pannotebooks -f pannotebooks_environment.yml
+conda env create -n pannotebooks -f pannotebooks_environment.yml
 ```
 
-Second environment for pipeline (mainly because snakemake has conflicting dependencies)
+## Second environment for pipeline 
+
+(Mainly because snakemake has conflicting dependencies)
 
 ```
 conda create --name pansnakemake
 ```
 Can be recreated from pansnakemake_environment.yml
 
-Third environment for multiqc with python
+## Third environment for multiqc with python
+Multiqc requires py3.7 to work
 
 ```
 conda create --name py3.7 python=3.7
