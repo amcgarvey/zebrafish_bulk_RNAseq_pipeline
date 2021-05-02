@@ -16,8 +16,9 @@ scripts/ functions or bits of code used in main pipeline or analysis notebooks e
 
 ### files
 * main.snake is the master snakemake file for the standard mapping pipeline
-* 
-* pansnakemake_environment.yml is the conda environment used for the snakemake pipeline
+* [conda_setup.md](conda_setup.md) gives a description of the set up of environment variables
+  * pansnakemake_environment.yml is the conda environment used for the snakemake pipeline
+  * pannotebooks_environment.ymlis the conda environment used for the jupyter notebooks
 * samplesheet.tsv contains all sample names and fastq paths
 * samplesheet_aligning.tsv contains paired information for samples paired-end sequenced
 * snake_run.sh script for job submission to the Grid Engine cluster
